@@ -1,4 +1,4 @@
-name: Deployment Pipeline   OBSUUM
+name: Deployment Pipeline   
 
 # Define when the workflow should run
 on:
@@ -22,6 +22,21 @@ on:
         required: false
         default: 'false'
         type: boolean
+
+        #
+        <!doctype html>
+<html>
+  <head><meta charset="utf-8"><title>ORBCON Orbit</title></head>
+  <body style="margin:0;background:#0b0f1a;">
+    <canvas id="c" style="width:100vw;height:100vh;display:block;"></canvas>
+    <script type="module">
+      import { visualize } from './src/visualize.ts';
+      const canvas = document.getElementById('c');
+      visualize(canvas);
+    </script>
+  </body>
+</html>
+
 
 # Define permissions for the workflow
 permissions:
